@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T09:04:09.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="crA-lrOQoWWyC-dZutZn" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T09:11:17.188Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="jXxeEVaTxr7ePtZTPewn" version="22.0.8" type="github">
   <diagram name="Page-1" id="dwuPGgFx45Mp_F6KNqrV">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,23 +7,44 @@
         <mxCell id="FC_MQ7_vnNkPOILoLUkA-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="115" y="90" width="530" height="940" as="geometry" />
         </mxCell>
-        <mxCell id="FC_MQ7_vnNkPOILoLUkA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FC_MQ7_vnNkPOILoLUkA-3" target="FC_MQ7_vnNkPOILoLUkA-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="FC_MQ7_vnNkPOILoLUkA-3" value="语音板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="140" width="280" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="FC_MQ7_vnNkPOILoLUkA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FC_MQ7_vnNkPOILoLUkA-4" target="FC_MQ7_vnNkPOILoLUkA-5">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="240" y="140" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FC_MQ7_vnNkPOILoLUkA-4" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;业务板&lt;br&gt;apk&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="140" y="390" width="480" height="520" as="geometry" />
         </mxCell>
         <mxCell id="FC_MQ7_vnNkPOILoLUkA-5" value="aicp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="720" y="465" width="120" height="290" as="geometry" />
         </mxCell>
         <mxCell id="FC_MQ7_vnNkPOILoLUkA-8" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="200" y="435" width="390" height="430" as="geometry" />
+          <mxGeometry x="190" y="420" width="390" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="FC_MQ7_vnNkPOILoLUkA-9" value="RTC SDK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FC_MQ7_vnNkPOILoLUkA-10" value="人脸SDK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FC_MQ7_vnNkPOILoLUkA-11" value="&lt;span style=&quot;background-color: initial;&quot;&gt;VoiceBoard&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FC_MQ7_vnNkPOILoLUkA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FC_MQ7_vnNkPOILoLUkA-3" target="FC_MQ7_vnNkPOILoLUkA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FC_MQ7_vnNkPOILoLUkA-19" value="日志SDK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FC_MQ7_vnNkPOILoLUkA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="FC_MQ7_vnNkPOILoLUkA-20" target="FC_MQ7_vnNkPOILoLUkA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FC_MQ7_vnNkPOILoLUkA-20" value="&lt;span style=&quot;background-color: initial;&quot;&gt;ROOM&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FC_MQ7_vnNkPOILoLUkA-24" value="&lt;span style=&quot;background-color: initial;&quot;&gt;metric&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FC_MQ7_vnNkPOILoLUkA-25" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Widget&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="755" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
